@@ -52,3 +52,4 @@ for name, model_id in models.items():
 print("\n=== Comparison ===")
 for name, acc in results.items():
     print(f"• {name.ljust(11)} → {acc:.2%}")
+    
